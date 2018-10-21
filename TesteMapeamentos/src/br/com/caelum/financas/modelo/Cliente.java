@@ -16,7 +16,7 @@ import javax.persistence.Version;
 public class Cliente {
 	@Version
 	private Long version;
-	@Id
+	@Id 
 	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	private Long id;
 	@Id
